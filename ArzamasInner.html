@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арзамасский Трактирщик</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; 
+            color: #333; 
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f8f0e3; 
+            border: 1px solid #d2b48c;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background-color: #a0522d;
+            color: #fff; 
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Times New Roman', serif;
+        }
+
+        nav {
+            background-color: #d2691e; 
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #8b4513; 
+        }
+
+        section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #d2b48c;
+        }
+
+        section h2 {
+            color: #a0522d;
+            border-bottom: 2px solid #d2b48c;
+            padding-bottom: 5px;
+        }
+
+        .menu-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px dashed #d2b48c;
+            border-radius: 5px;
+        }
+
+        .menu-item h3 {
+            margin: 0 0 5px 0;
+            color: #d2691e;
+        }
+
+        footer {
+            background-color: #a0522d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .hero-image {
+            background-image: url('https://source.unsplash.com/900x400/?tavern');
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px #000000; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Арзамасский Трактирщик</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#history">История</a></li>
+                <li><a href="#location">Местоположение</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                Традиции гостеприимства с 18 века
+            </div>
+        </div>
+
+        <section id="menu">
+            <h2>Наше Меню</h2>
+            <div class="menu-item">
+                <h3>Борщ с пампушками</h3>
+                <p>Наваристый борщ с говядиной, подается с чесночными пампушками.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Жаркое по-домашнему</h3>
+                <p>Сытное жаркое из свинины с картофелем и грибами.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Сбитень</h3>
+                <p>Традиционный русский напиток на меду и травах.</p>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>История Трактира</h2>
+            <p>История нашего трактира пропитана духом XVIII века, эпохой Екатерины Великой и расцвета русской торговли. В 1787 году, когда Арзамас еще благоухал яблоневыми садами и звенел колоколами многочисленных церквей, купец первой гильдии Игнат Петров, человек широкой души и страстный любитель русской кухни, решил основать здесь трактир.
+
+            Игнат, выходец из крестьянской семьи, своим трудолюбием и смекалкой сумел сколотить состояние на торговле лесом и зерном. Он мечтал о месте, где усталые путники и местные жители могли бы отдохнуть от дорожной пыли, насладиться вкусной и сытной едой, и, конечно, выпить чарку-другую доброго хмельного меда.
+
+            Трактир, получивший название “Петровский”, был построен из крепкого соснового сруба, украшен резными наличниками и расписан яркими красками. Внутри царила атмосфера тепла и уюта: потрескивали дрова в печи, горели свечи, а воздух был наполнен ароматами свежеиспеченного хлеба, жареного мяса и душистых трав.
+
+            “Петровский” быстро завоевал популярность. Здесь заключались важные торговые сделки, купцы обменивались новостями, а местные жители отмечали праздники и свадьбы. Хозяйка трактира, Агафья, жена Игната, славилась своим умением готовить пироги и разносолы, а сам Игнат, лично следил за качеством продуктов и обслуживанием гостей.
+
+            В “Петровском” подавали все лучшее, что могла предложить русская кухня того времени: наваристые щи и рассольники, пироги с мясом, грибами и ягодами, жареную дичь, запеченного поросенка, а также разнообразные напитки - квас, сбитень, медовуху и настойки.
+
+            Спустя столетия, “Петровский” сменил не одно поколение хозяев, но сохранил свою уникальную атмосферу и традиции. Мы гордимся своим наследием и продолжаем дело Игната Петрова, предлагая нашим гостям лучшее из русской кухни и искреннее русское гостеприимство. В наших стенах вы сможете почувствовать себя как дома, окунуться в прошлое и насладиться вкусом настоящей русской жизни. Именно поэтому мы называемся “Арзамасский Трактирщик” – чтобы подчеркнуть нашу связь с этим прекрасным городом и его историей.</p>
+        </section>
+
+        <section id="location">
+            <h2>Наше Местоположение</h2>
+            <p>Мы находимся в историческом центре Арзамаса, по адресу: ул. Гостиная, 12.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2137.505072454499!2d43.82433871596327!3d55.39655608092832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x431ea3550a3740f1%3A0xd9c98c93efd73552!2z0JHQvtC70YzRiNC10YHQutC4INCa0LDQt9Cw0L3QuNC2!5e0!3m2!1sru!2sru!4v1682345678901!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Телефон: +7 (83147) 7 57 29</p>
+            <p>Email: info@arzamastraktir.ru</p>
+            <p>Евгений Улюшкин</p>
+            <p>Наш ВК: https://vk.com/arzamas_traktir</p>
+        </section>
+
+        <footer>
+            &copy; 2025 Арзамасский Трактирщик. Все права защищены.
+        </footer>
+    </div>
+
+</body>
+</html>
